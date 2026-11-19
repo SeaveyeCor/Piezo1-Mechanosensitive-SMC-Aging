@@ -1,0 +1,11 @@
+output/
+data/velocity/
+data/source_data/
+*.rds
+*.h5
+*.h5ad
+*.loom
+*.bam
+__pycache__/
+.Rhistory
+.RData

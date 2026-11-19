@@ -1,0 +1,57 @@
+Gene,Category
+Acta2,Contractile (Classification Panel)
+Cnn1,Contractile (Classification Panel)
+Myh11,Contractile (Classification Panel)
+Mylk,Contractile (Classification Panel)
+Myocd,Contractile (Classification Panel)
+Smtn,Contractile (Classification Panel)
+Tagln,Contractile (Classification Panel)
+Cald1,Contractile (Extended Panel)
+Calm1,Contractile (Extended Panel)
+Calm2,Contractile (Extended Panel)
+Calm3,Contractile (Extended Panel)
+Dapk3,Contractile (Extended Panel)
+Des,Contractile (Extended Panel)
+Lmod1,Contractile (Extended Panel)
+Myl9,Contractile (Extended Panel)
+Ppp1r14a,Contractile (Extended Panel)
+Prkca,Contractile (Extended Panel)
+Prkcb,Contractile (Extended Panel)
+Prkcd,Contractile (Extended Panel)
+Rock1,Contractile (Extended Panel)
+Rock2,Contractile (Extended Panel)
+Tpm1,Contractile (Extended Panel)
+Tpm2,Contractile (Extended Panel)
+Col1a1,Synthetic Classification Panel
+Fn1,Synthetic Classification Panel
+Klf4,Synthetic Classification Panel
+Spp1,Synthetic Classification Panel
+Vim,Synthetic Classification Panel
+Col1a2,Synthetic Phenotype Panel
+Dcn,Synthetic Phenotype Panel
+Efemp1,Synthetic Phenotype Panel
+Igfbp6,Synthetic Phenotype Panel
+Nfatc1,NFAT Pathway
+Nfatc2,NFAT Pathway
+Nfatc3,NFAT Pathway
+Nfatc4,NFAT Pathway
+Ppp3ca,NFAT Pathway
+Ppp3cb,NFAT Pathway
+Ppp3cc,NFAT Pathway
+Rcan1,NFAT Pathway
+Rcan2,NFAT Pathway
+Rcan3,NFAT Pathway
+Mmp2,NFAT Activity
+Mmp9,NFAT Activity
+Timp1,NFAT Activity
+Vcam1,NFAT Activity
+Wnt5a,NFAT Activity
+Bgn,ECM Score
+Col6a1,ECM Score
+Sparc,ECM Score
+Timp2,ECM Score
+Ezr,Cytoskeletal Remodeling
+Lmna,Cytoskeletal Remodeling
+Syne2,Cytoskeletal Remodeling
+Piezo1,Mechanosensors
+Piezo2,Mechanosensors

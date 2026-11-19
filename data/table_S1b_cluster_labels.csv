@@ -1,0 +1,23 @@
+Cluster,Cell Type
+Cl1,"Visceral SMC (Contractile, bona fide)"
+Cl15,"Visceral SMC (Contractile, bona fide)"
+Cl16,"Visceral SMC (Contractile, bona fide)"
+Cl5,"Visceral SMC (Synthetic, bona fide)"
+Cl2,PDGFRα+ Fibroblast (FLC)
+Cl3,Enteric Glia
+Cl4,Macrophage
+Cl10,PDGFRα+ Fibroblast (FLC)
+Cl9,Macrophage
+Cl8,T Cell
+Cl12,PDGFRα+ Fibroblast (FLC)
+Cl6,"Lymphatic Vessel-Assoc (LV-SMC + LEC, mixed)"
+Cl11,"Lymphatic Endothelial (LEC, pure)"
+Cl13,Mixed Glia/SMC (peri-neural)
+Cl14,Mesothelial
+Cl17,Intramuscular ICC (ICC-IM)
+Cl18,Myenteric ICC (ICC-MY)
+Cl19,Arterial SMC / Pericyte
+Cl23,B Cell
+Cl22,Enteric Neuron
+Cl21,Erythrocyte
+Cl24,Intramuscular ICC (ICC-IM)

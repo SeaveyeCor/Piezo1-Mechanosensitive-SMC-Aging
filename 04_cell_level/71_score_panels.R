@@ -93,12 +93,14 @@ d4 <- a4[a4$version == "paper", ]
 ord <- c("Core Contractile","Calcium SOCE/IP3","Synthetic Phenotype","ECM Remodeling","Dedifferentiation","NFAT Pathway","TGF-beta/Stress","NFAT-Associated Remodeling")
 d4$pathway <- factor(d4$pathway, levels=rev(ord)); d4$age <- factor(ifelse(d4$age=="Young","3mo","24mo"), levels=c("3mo","24mo"))
 pA <- ggplot(d4, aes(rho, pathway, colour=age)) + geom_vline(xintercept=0, linetype="dashed", colour="grey50") +
-  geom_point(size=3.2) + geom_text(aes(label=star, vjust=ifelse(age=="3mo", -0.8, 1.8)), size=3.2, show.legend=FALSE) +  # 3mo star above, 24mo below
+  geom_point(size=4.5) + geom_text(aes(label=star, vjust=ifelse(age=="3mo", -0.7, 1.7)), size=5.5, show.legend=FALSE) +  # 3mo star above, 24mo below
   scale_colour_manual(values=c("3mo"="#4DAF4A","24mo"="#E41A1C"), name="Age") +
-  labs(title="4A  Piezo1 vs pathway scores", x="Spearman rho with Piezo1", y=NULL) + theme_publication(base_size=12) +
-  theme(plot.title=element_text(hjust=0, size=14), legend.position="bottom")
-ggsave(file.path(FIG, "Fig4A.png"), pA, width=6, height=5.2, dpi=300, bg="white")
-ggsave(file.path(FIG, "Fig4A.pdf"), pA, width=6, height=5.2, bg="white")
+  labs(title="4A  Piezo1 vs pathway scores", x="Spearman rho with Piezo1", y=NULL) + theme_publication(base_size=16) +
+  theme(plot.title=element_text(hjust=0, size=18), axis.text=element_text(size=15, colour="black"), axis.title=element_text(size=16),
+        legend.text=element_text(size=15), legend.title=element_text(size=16), legend.position="bottom")
+ggsave(file.path(FIG, "Fig4A.png"), pA, width=7, height=6, dpi=600, bg="white")
+ggsave(file.path(FIG, "Fig4A.tif"), pA, width=7, height=6, dpi=600, bg="white", compression="lzw")
+ggsave(file.path(FIG, "Fig4A.pdf"), pA, width=7, height=6, bg="white")
 
 # ---------- 4D: NFAT-associated remodeling score, 5 genes (superplot inputs) ----------
 G4 <- c("Young_Ctrl","Aged_Ctrl","Young_KO","Aged_KO"); s5 <- sc(ACT5); s6 <- sc(ACT6)

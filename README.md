@@ -7,7 +7,7 @@ Mechanotransduction Drives Smooth Muscle Aging in the Gut" (bioRxiv, https://doi
 - Processed Seurat object for the six mice analysed (`seurat_paper_6samples.rds`, 15,514 cells, with the stored PCA/UMAP
   used for Fig 3A and Fig S3A) and a cell-level table linking every cell to the figures (`cell_annotations_paper.csv`):
   Zenodo, https://doi.org/10.5281/zenodo.24381866. Place the object at `data/seurat_paper_6samples.rds` before running.
-- Raw FASTQ files and Cell Ranger filtered feature-barcode matrices: GEO, accession number upcoming.
+- Raw FASTQ files and Cell Ranger filtered feature-barcode matrices: GEO, accession GSE355384.
 - Bundled in `data/`: `annotation_template_REVIEWED.csv` (cluster to cell-type annotation), `doublet_cell_ids.txt`
   (scDblFinder doublets removed from the SMC set), `table_S*.csv` (descriptive text for Tables S0-S2 and the S4 gene
   list; the numbers in Table S1 are computed from the object when the tables are built).
